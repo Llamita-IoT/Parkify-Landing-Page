@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkpal</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="main">
+        <div class="container">
+            <div class="bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo_text no-margin center-text">ParkPal<span class="logo_bold"></span></h1>
+                </a>
+
+                <nav class="navigation"> <!-- Para la seccion actual se despliega la barra de opciones-->
+                    <a href="#us" class="navigation_links">Nosotros</a>
+                    <a href="#services" class="navigation_links">Servicios</a>
+                    <a href="#contact" class="navigation_links">Contacto</a>  
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="forms">
+            <form class="form">
+                <fieldset>
+                    <legend>Formulario para consultas</legend>
+                    <div class="container-fields">
+                        <div class="fields">
+                            <label>Nombre</label>
+                            <input class="inputext" type="text" placeholder="Nombre">
+                        </div>
+                        
+                        <div class="fields">
+                            <label>Teléfono</label>
+                            <input class="inputext" type="tel" placeholder="Teléfono">
+                        </div>
+                        
+                        <div class="fields">
+                            <label>Email</label>
+                            <input class="inputext" type="email" placeholder="Correo">
+                        </div>
+                    
+                        <div class="fields">
+                            <label>Consulta</label>
+                            <textarea class="inputext"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="press">
+                        <button class="button"><a href="#">Enviar</a> </button>
+                    </div>
+
+                </fieldset>
+            </form>
+            <form class="form">
+                <fieldset>
+                    <legend>Nuestra aplicación</legend>
+                    <div class="press">
+                        <button class="button"><a href="https://parkpal.web.app">Descargar aplicación</a> </button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <section class="us" id="us">
+        <div class="container us_content">
+            <h2 class="us_title no-margin">Nosotros</h2>
+            <div class="us_text">
+                <p>ParkPal surge como propuesta para ayudar a los clientes y empresas en la ubicación rápida de puntos de estacionamiento.
+                </p>
+                <p>Misión: Mejorar la automatización de ubicación de estacionamientos vehiculares, ahorrando tiempo y aumentando comercio.</p>
+                <p>Visión: Ofrecer los mejores servicios de calidad y excelencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="services container" id="services">
+        <h2 class="services_title">Servicios</h2>
+        <div class="infoservices">
+
+                <div class="service__image">
+                    <img src="static/serv1.jpg">
+                </div>
+
+                <div class="service_content center-text">
+                    <h4 class="no-margin">Sensores de estacionamiento vehicular</h4>
+                    <li>Instalación de dispositivos</li>
+                    <li>Indexación de dispositivos con los servidores</li>
+                    <li>Servicio técnico</li>
+                    <li>3 años de garantía en servicios adquiridos de ParkPal</li>
+                    <button class="button2"><a href="#mainn">Solicitar</a> </button>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="contact" id="contact"><!-- Se iran agregando comentarios en un futuro con los distintos tesmonios de nuestros clientes-->
+        <h2 class="contact_title no-margin">Contáctanos</h2>
+        <p class="contact_text">Disponibles las 24 horas, 7 días de la semana. Responderemos con la mayor brevedad posible.</p>
+        <div class="container infocontact">
+            <section class="information">
+                <h3>Teléfono</h3>
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg>
+                </div>
+                <p>999999999</p>
+            </section>
+
+            <section class="information">
+                <h3>Email</h3>
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                    </svg>
+                </div>
+                <p>contacto@parkpal.com</p>
+            </section>
+
+            <section class="information">
+                <h3>Ubicación</h3>
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                </div>
+                <p>Jirón Llamas 1100</p>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo_text no-margin center-text">© 2023 Creado por ParkPal</h1>
+                </a>
+            </div> <!-- En esta parte de deberán agregar los iconos para que nos encuentren en nuestras redes sociales-->
+        </div>
+    </footer>
+</body>
+
+</html>

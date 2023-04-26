@@ -1,5 +1,5 @@
 ## Description
-This repository contains the landing page for the ParkPal project.
+This repository contains the landing page for the Parkify project.
 
 ## Landing Page
-https://maxter43.github.io/parkpal.github.io/
+https://llamita-iot.github.io/Parkify-Landing-Page/
